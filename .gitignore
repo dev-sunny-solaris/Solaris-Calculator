@@ -1,0 +1,16 @@
+# dependencies — this project has none, but keep the guard
+node_modules/
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# os
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# local scratch
+*.local
+tmp/
