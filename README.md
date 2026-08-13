@@ -55,8 +55,4 @@ Two assumptions are still estimates and should be replaced once there is product
 The mobile figures (`mobileRpm`, `mobileResp`, `mobileRowsDay`) are estimates too — measurable
 from the same php-fpm log by filtering `/api/*`.
 
-## Open decision
-
-File storage is charged at the **quota sold** (1 GB per user), not at measured usage. That is
-the safe reading, and on small disks it makes storage the binding resource. Switching to a
-utilisation assumption is a one-constant change, but it is a commercial call, not a technical one.
+File storage is charged at the quota sold (1 GB per user), not at measured usage.
